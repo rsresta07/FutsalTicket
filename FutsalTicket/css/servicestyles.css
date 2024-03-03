@@ -1,0 +1,68 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(2, 178, 75);
+    background-color: rgb(19, 16, 16);
+    border-radius: 10px;
+  }
+
+
+  .content>p {
+    text-align: justify; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .content>h2{
+    text-align: left;
+    display: flex;
+    top: 100px;
+    left: 500px;
+    margin-left: 20px;
+    color: rgb(114, 218, 154);
+  }
+  div{
+    width: auto;
+  }
+  .service{
+    width:920px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(19, 16, 16);
+    padding:10px;
+    color:  rgb(194, 194, 194);
+    outline: 1px solid rgb(114, 218, 154);
+  }
+
+  img{
+    border-radius: 5px;
+    width:250px;
+    height:auto;
+  }
+
+  .read-btn {
+    margin-left: 20px;
+    display: inline-block;
+     padding: 5px 10px;
+     background-color: rgb(2, 178, 75);
+     color:  rgb(194, 194, 194);
+     text-decoration: none;
+     font-weight: bold;
+     border-radius: 5px;
+   }
+     
+   .book-now-btn:hover {
+     background-color: #7069ec;
+   }
+     
+   .book-now-btn:focus {
+     outline: none;
+     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+   }

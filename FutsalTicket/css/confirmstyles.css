@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  p, td{
+    color:rgb(194, 194, 194);
+  }
+  
+  h1, th {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(2, 178, 75);
+
+  }
+  
+.tbl {
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+}
+table {
+  padding: 10px;
+  border:2px solid  rgb(114, 218, 154);
+
+  /* border-collapse: collapse; */
+}
+  .confirmation {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  

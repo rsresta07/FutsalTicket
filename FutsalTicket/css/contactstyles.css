@@ -1,0 +1,63 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h3 {
+    text-align: center;
+    color:rgb(2, 178, 75);
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid  rgb(114, 218, 154);
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid  rgb(211, 211, 39);
+    background-color: rgb(19, 16, 16);
+    color:  rgb(194, 194, 194);
+  }
+  #message {
+    height:100px;
+  }
+
+
+  input[type="submit"] {
+    background-color: rgb(2, 178, 75);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+.contact-info {
+  max-width: 425px;
+  margin: 0 auto;
+  padding: 20px;
+  outline: 1px solid rgb(114, 218, 154);
+  color:rgb(194, 194, 194);
+}
+
+.contact-info table {
+  padding-left: 20px;
+}
+

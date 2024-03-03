@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(2, 178, 75);
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+    outline: 1px solid  rgb(2, 178, 75);
+    padding: 20px;
+  }
+
+  .booking-list {
+    margin-bottom: 30px;
+    outline: 1px solid  rgb(2, 178, 75);
+    padding: 20px;
+  }
+  
+  .approved-bookings,
+  .booking-history {
+    margin-bottom: 30px;
+    outline: 1px solid  rgb(2, 178, 75);
+    padding: 20px;
+  }
+  
+  .user-info h2, .booking-list h2,
+  .approved-bookings h2,
+  .booking-history h2 {
+    margin-bottom: 10px;
+    color: rgb(2, 178, 75);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(211, 211, 39);;
+  }
+
+  th {
+    background-color: rgb(114, 218, 154);
+  }
+
+  tr:hover {
+    background-color: rgb(114, 218, 154);
+    color:rgb(19, 16, 16);;
+  }
+ body {
+  color:rgb(194, 194, 194);
+ }
+
+ th{
+  color:rgb(19, 16, 16);
+ }

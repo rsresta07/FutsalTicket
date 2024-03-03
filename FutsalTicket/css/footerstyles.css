@@ -1,0 +1,19 @@
+/* Footer styles */
+footer {
+  background-color:  rgb(2, 178, 75);
+  color: rgb(211, 211, 39);
+  text-align: center;
+  padding: 20px 0;
+  /* to make footer at bottom */
+  flex-shrink: 0;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  footer p {
+    font-size: 12px;
+  }
+}

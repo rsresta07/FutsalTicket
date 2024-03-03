@@ -1,0 +1,49 @@
+.container {
+    max-width: 450px;
+    height: 625px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color:rgb(2, 178, 75);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid rgb(114, 218, 154);
+    padding: 20px;
+    color: rgb(194, 194, 194);
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid  rgb(211, 211, 39);
+    color: rgb(194, 194, 194);
+    background-color: rgb(19, 16, 16);
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(2, 178, 75);
+    color: rgb(194, 194, 194);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  a {
+    color:  rgb(114, 218, 154);
+    text-decoration: none;
+  }
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  } 

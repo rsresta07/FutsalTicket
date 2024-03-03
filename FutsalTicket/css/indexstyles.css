@@ -1,0 +1,255 @@
+.container01 {
+  max-width: 555px;
+  margin: 0 auto;
+  align-items: center;
+  background: rgb(19, 16, 16);
+  min-height: 150px;
+  place-content: center;
+  display: grid;
+  border-radius: 0.5rem;
+}
+
+.hero-content {
+  width: 550px;
+  color: rgb(2, 178, 75);
+  height: auto;
+  padding: 20px;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.hero-content > p {
+  font-size: 18px;
+}
+
+/* Gradient for welcome */
+.hero-content::before,
+.hero-content::after {
+  content: "";
+  position: absolute;
+  inset: -0.2rem;
+  z-index: -1;  
+  background: conic-gradient(
+    from var(--gradient-angle),  
+    rgb(2, 178, 75),
+    rgb(114, 218, 154),
+    rgb(211, 211, 39),
+    rgb(2, 178, 75),
+    rgb(114, 218, 154),
+    rgb(211, 211, 39)
+  );
+  border-radius: inherit;
+  animation: rotation 20s linear infinite;
+}
+
+.hero-content::after {
+  filter: blur(3.5rem);
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotation {
+  0% { --gradient-angle: 0deg; }
+  100% { --gradient-angle: 360deg; }
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section styles */
+.hero-section {
+  color: rgb(194, 194, 194);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.hero-section > p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* User profile icon styles */
+.hero-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Login/registration styles */
+.hero-section div a {
+  color: rgb(194, 194, 194);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.pheader {
+  color: rgb(114, 218, 154);
+}
+
+/* Services section styles */
+.service-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.img-container {
+  flex: 0 0 auto;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.img001 {
+  width: 350px;
+  height: 250px;
+  background-size: cover;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.service-row h5 {
+  color: rgb(2, 178, 75);
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.service {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .service-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-container {
+    margin-right: 0;
+    margin-bottom: 10px; /* Adjust margin as needed for smaller screens */
+  }
+}
+
+.text-container>p {
+  color: rgb(194, 194, 194);
+}
+
+.booking-section {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.booking-context {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 300px;
+  color: rgb(114, 218, 154);
+}
+
+.booking-btn {
+  margin-right: 350px;
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: rgb(2, 178, 75);
+  color: rgb(194, 194, 194);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.book-now-btn:hover {
+  background-color: rgb(211, 211, 39);
+}
+
+.book-now-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .hero-section {
+    padding: 60px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .booking-context {
+    margin-left: 0;
+  }
+
+  .booking-btn {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .hero-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .booking-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .booking-context {
+    margin: 20px 0;
+  }
+
+  .booking-btn {
+    margin-right: 0;
+  }
+}
