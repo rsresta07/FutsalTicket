@@ -1,4 +1,4 @@
-`bookings``field_status``bookings``tbl_field``field_status`CREATE DATABASE futsal_reservation;
+CREATE DATABASE futsal_reservation;
 
 CREATE TABLE users (
   id INT PRIMARY KEY AUTO_INCREMENT,
